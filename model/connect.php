@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "api_example";
+$username = "smendoza";
+$password = "Teclado19";
+$dbname = "modulo_inventario";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 

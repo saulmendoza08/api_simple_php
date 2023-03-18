@@ -115,7 +115,6 @@ function deleteUser($conn) {
   $conn->close();
 }
 
-  
 
 function updateUser($conn) {
   $json = file_get_contents('php://input');
